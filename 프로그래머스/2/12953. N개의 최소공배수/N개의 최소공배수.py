@@ -1,4 +1,6 @@
+import math
 def solution(arr):
+    return math.lcm(*arr)
     arr=[[x,x] for x in arr]
     while True:
         f=True 
